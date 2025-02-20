@@ -25,6 +25,7 @@ const FooterMain = () => {
       <div className="md:flex justify-between mt-4 max-w-[1200px] mx-auto sm:hidden">
         <p className="text-3xl text-lightGrey "> Okpani Kelechi</p>
         <ul className="flex gap-4 text-lightGrey text-xl">
+
           {footerLinks.map((item, index) => {
             return (
               <li key={index}>
