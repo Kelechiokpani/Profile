@@ -8,7 +8,7 @@ const ExperienceTopLeft = () => {
       </p>
       <div className="flex justify-center items-center gap-4">
         <ExperienceInfo number="4" text="Years" />
-        <p className="font-bold text-6xl text-lightBrown">-</p>
+        {/*<p className="font-bold text-6xl text-lightBrown">-</p>*/}
         {/*<ExperienceInfo number="23" text="Websites" />*/}
       </div>
       <p className="text-center">

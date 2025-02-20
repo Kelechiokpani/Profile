@@ -2,40 +2,44 @@ import ProjectsText from "./ProjectsText";
 import SingleProject from "./SingleProject";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
+import p1 from "../../../public/project/nextcouple.png"
+import p2 from "../../../public/project/theragist.png"
+import p3 from "../../../public/project/netapps.png"
+import p4 from "../../../public/project/netapps.png"
+import p5 from "../../../public/project/kreative.png"
+
 
 const projects = [
 
   {
     name: "Next Naija Couple",
     align: "left",
-    image: "../../public/project/nextcouple.png",
+    image: p1,
     link: "https://nextnaijacouple.com/",
   },
   {
     name: "Theragist",
     align: "right",
-    image: "../../public/project/theragist.png",
+    image: p2,
     link: "https://www.theragist.com/",
   },
   {
     name: "Net Apps Kyc",
     align: "left",
-    image: "../../public/project/netapps.png",
+    image: p3,
     link: "#",
   },
   {
     name: "Top Profile",
     align: "right",
-    image: "../../public/project/topProfile.png",
-    // image: "../../public/images/website-img-4.jpg",
+    image: p4,
     link: "https://www.toprofile.com/",
   },
 
   {
     name: "Kreative Digital",
     align: "left",
-    image: "../../public/project/kreative.png",
-    // image: "../../public/images/website-img-4.jpg",
+    image: p5,
     link: "https://kreativerock.com",
   },
 ];
