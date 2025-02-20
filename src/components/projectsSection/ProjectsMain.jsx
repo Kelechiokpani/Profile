@@ -4,33 +4,39 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
+
   {
-    name: "Vacation of Africa",
-    year: "Mar2022",
-    align: "right",
-    image: "../../public/images/website-img-1.jpg",
-    link: "#",
-  },
-  {
-    name: "Moola App",
-    year: "Sept2022",
+    name: "Next Naija Couple",
     align: "left",
-    image: "../../public/images/website-img-2.webp",
-    link: "#",
+    image: "../../public/project/nextcouple.png",
+    link: "https://nextnaijacouple.com/",
   },
   {
-    name: "Tourzania",
-    year: "Jan2023",
+    name: "Theragist",
     align: "right",
-    image: "../../public/images/website-img-3.jpg",
+    image: "../../public/project/theragist.png",
+    link: "https://www.theragist.com/",
+  },
+  {
+    name: "Net Apps Kyc",
+    align: "left",
+    image: "../../public/project/netapps.png",
     link: "#",
   },
   {
-    name: "Bank of Luck",
-    year: "May2024",
+    name: "Top Profile",
+    align: "right",
+    image: "../../public/project/topProfile.png",
+    // image: "../../public/images/website-img-4.jpg",
+    link: "https://www.toprofile.com/",
+  },
+
+  {
+    name: "Kreative Digital",
     align: "left",
-    image: "../../public/images/website-img-4.jpg",
-    link: "#",
+    image: "../../public/project/kreative.png",
+    // image: "../../public/images/website-img-4.jpg",
+    link: "https://kreativerock.com",
   },
 ];
 
@@ -51,9 +57,10 @@ const ProjectsMain = () => {
             <SingleProject
               key={index}
               name={project.name}
-              year={project.year}
+              // year={project.year}
               align={project.align}
               image={project.image}
+              link={project.link}
             />
           );
         })}

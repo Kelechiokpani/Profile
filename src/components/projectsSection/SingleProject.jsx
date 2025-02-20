@@ -20,7 +20,7 @@ const SingleProject = ({ name, year, align, image, link }) => {
             align === "left" ? "md:text-right" : "md:text-left"
           }`}
         >
-          {year}
+          {/*{year}*/}
         </h2>
         <a
           href={link}
