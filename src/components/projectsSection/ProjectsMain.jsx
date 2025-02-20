@@ -5,7 +5,7 @@ import { fadeIn } from "../../framerMotion/variants";
 import p1 from "../../../public/project/nextcouple.png"
 import p2 from "../../../public/project/theragist.png"
 import p3 from "../../../public/project/netapps.png"
-import p4 from "../../../public/project/netapps.png"
+import p4 from "../../../public/project/topProfile.png"
 import p5 from "../../../public/project/kreative.png"
 
 
